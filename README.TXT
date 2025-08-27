@@ -18,4 +18,5 @@ adds a class to those ones in "shapes". That class (named "Picture")
 uses the shapes to draw a picture. It can be used to experiment with 
 modifying source code.
 
+Q14. I think it actually doesn't "draw" the picture. I think it just pulls out the actual image instead.
 
