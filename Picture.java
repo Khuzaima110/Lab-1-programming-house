@@ -14,8 +14,7 @@ public class Picture
     private Square wall;
     private Square window;
     private Triangle roof;
-    private Circle sun;
-    private Circle sun2; 
+    private Circle sun; 
     private boolean drawn;
     
     /**
@@ -57,11 +56,16 @@ public class Picture
             sun.moveVertical(-40);
             sun.changeSize(80);
             sun.makeVisible();
-            sun.slowMoveVertical(290);
             drawn = true;
         }
     }
-
+    
+    public void sunset() {
+        sun.slowMoveVertical(290);
+    }
+    
+    
+    
     /**
      * Change this picture to black/white display
      */
