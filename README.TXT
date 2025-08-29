@@ -20,3 +20,8 @@ modifying source code.
 
 Q14. I think it actually doesn't "draw" the picture. I think it just pulls out the actual image instead.
 
+Q18: Added sunset
+
+Q19: Added a sunset method
+
+Q20: Made a Method for a person to walk up to the house after the sunset
